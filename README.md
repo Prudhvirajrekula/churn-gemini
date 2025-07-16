@@ -3,6 +3,9 @@
 
 This project is a modern, interactive customer churn prediction and explanation assistant, powered by Google Gemini LLM and Streamlit. Muffin provides actionable insights into customer churn using both machine learning models and natural language explanations.
 
+
+## View Live : https://churn-gemini.streamlit.app/
+
 ## Features
 - **Conversational Chatbot UI** (Streamlit)
 - **Gemini 2.0 Flash LLM** for natural language answers
