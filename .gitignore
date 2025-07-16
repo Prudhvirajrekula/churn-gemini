@@ -1,39 +1,31 @@
-# === Python ===
+# Python
 __pycache__/
 *.py[cod]
 *.so
-*.log
+*.egg
+*.egg-info/
+dist/
+build/
 
-# === Environments ===
-.env
-.env.*
-venv/
-churn-env/
-*.env
+# Streamlit secrets
+.streamlit/secrets.toml
+.streamlit/*.toml
 
-# === Jupyter / Notebook Stuff ===
-.ipynb_checkpoints/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# === Model Artifacts ===
-*.npy
-*.h5
-*.joblib
-*.zip
-
-# === IDE Config ===
+# VSCode
 .vscode/
-.idea/
 
-# === OS-specific ===
+.env
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# === Node (if any frontend involved) ===
-node_modules/
-build/
-dist/
+# Cache
+.cache/
 
-wheels/
-*.whl
-
-.streamlit/
+# Data outputs (optional, uncomment if needed)
+# *.db
+# *.csv
