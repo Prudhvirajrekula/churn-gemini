@@ -11,8 +11,6 @@ This project is a modern, interactive customer churn prediction and explanation 
 - **Gemini 2.0 Flash LLM** for natural language answers
 - **Database and CSV Integration**: Uses your data in `/data` for context
 - **Customer Profile Sidebar**: Select a customer and get tailored explanations
-- **No API keys or secrets in git**: Secure by default
-- **FAANG+-level code quality and UX**
 
 ## Setup
 1. **Clone the repo**
@@ -42,10 +40,6 @@ This project is a modern, interactive customer churn prediction and explanation 
 - Ask questions in the chat (e.g., "Why is this customer predicted to churn?").
 - Muffin will use the selected customer's data and your database/CSV context to answer.
 - Special Muffin persona responses for questions about the assistant's name or identity.
-
-## Security
-- **API keys and secrets are never tracked in git** (`.streamlit/secrets.toml` is in `.gitignore`).
-- Do not share your API key publicly.
 
 ## Data
 - Place your data files (CSV, SQLite DB) in the `/data` folder.
