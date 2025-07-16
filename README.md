@@ -12,6 +12,10 @@ This project is a modern, interactive customer churn prediction and explanation 
 - **Database and CSV Integration**: Uses your data in `/data` for context
 - **Customer Profile Sidebar**: Select a customer and get tailored explanations
 
+## Screenshots
+<img width="1916" height="1085" alt="gemini" src="https://github.com/user-attachments/assets/0c3adc66-a5f0-44ad-84a1-7ce132d2b872" />
+<img width="1917" height="1090" alt="gemini2" src="https://github.com/user-attachments/assets/75d56476-a741-4d7b-9840-77249bd6c5aa" />
+
 ## Setup
 1. **Clone the repo**
    ```sh
